@@ -1,0 +1,12 @@
+<h3>Categorias: </h3>
+<hr>
+
+<div class="card">
+    <div class="card-body">
+        {{#each categorias}}
+            <a href="/categorias/{{slug}}"><h5>{{nome}}</h5></a>
+        {{else}}
+            Nenhuma Categoria Registrada
+        {{/each}}
+    </div>
+</div>
